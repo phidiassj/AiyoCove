@@ -5,4 +5,4 @@
 
 https://huggingface.co/khmyznikov/whisper-int8-cpu-ort.onnx/tree/main
 
-
+![執行畫面](https://github.com/phidiassj/AiyoCove/blob/master/AiyoCove/demo.png)
