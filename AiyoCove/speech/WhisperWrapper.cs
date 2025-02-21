@@ -19,6 +19,7 @@ public class WhisperWrapper : IDisposable
             SessionOptions options = new();
             options.RegisterOrtExtensions();
             options.AppendExecutionProvider_CPU();
+            //options.AppendExecutionProvider_OpenVINO();
             options.LogSeverityLevel = OrtLoggingLevel.ORT_LOGGING_LEVEL_INFO;
             inferenceSession = new InferenceSession(modelPath, options);
         });
