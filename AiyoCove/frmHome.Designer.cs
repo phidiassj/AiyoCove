@@ -144,10 +144,10 @@
             tabPage2.Controls.Add(txtPoseDetectMessages);
             tabPage2.Controls.Add(txtPoseImagesPath);
             tabPage2.Controls.Add(btnPoseImagesPath);
-            tabPage2.Location = new Point(4, 26);
+            tabPage2.Location = new Point(4, 24);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(770, 432);
+            tabPage2.Size = new Size(770, 434);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Pose Detection";
             tabPage2.UseVisualStyleBackColor = true;
@@ -251,7 +251,7 @@
             Font = new Font("Microsoft JhengHei UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "frmHome";
-            Text = "AiyoCove Testing Branch";
+            Text = "AiyoCove Testing Bench";
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
